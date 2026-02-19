@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-global-accelerator`](https://www.npmjs.com/package/@aws-sdk/client-global-accelerator/v/3.930.0).
+[`@aws-sdk/client-global-accelerator`](https://www.npmjs.com/package/@aws-sdk/client-global-accelerator/v/3.931.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.930.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.931.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-U01EIs5GsVzA364ggw25BHUTD3mRHfiyTvEHV2D1pUXD/4CCJF/CD+PEXifzk6R0
+sha384-Duom7q0GKhERlk9xKGpuJcndBGd4td4gI3B3ubzEUeTpMYH5w5nC7lNYNZ5v/HJO
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-global-accelerator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.930.0/index.min.mjs"
+            "@aws-sdk/client-global-accelerator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.931.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.930.0/index.min.mjs": "sha384-U01EIs5GsVzA364ggw25BHUTD3mRHfiyTvEHV2D1pUXD/4CCJF/CD+PEXifzk6R0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.931.0/index.min.mjs": "sha384-Duom7q0GKhERlk9xKGpuJcndBGd4td4gI3B3ubzEUeTpMYH5w5nC7lNYNZ5v/HJO"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-global-accelerator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.930.0/index.min.mjs"
+                        "@aws-sdk/client-global-accelerator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.931.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.930.0/index.min.mjs": "sha384-U01EIs5GsVzA364ggw25BHUTD3mRHfiyTvEHV2D1pUXD/4CCJF/CD+PEXifzk6R0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-global-accelerator@3.931.0/index.min.mjs": "sha384-Duom7q0GKhERlk9xKGpuJcndBGd4td4gI3B3ubzEUeTpMYH5w5nC7lNYNZ5v/HJO"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.930.0`)
+* Always pin to a specific version (`@3.931.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-global-accelerator/blob/refs/tags/3.930.0/LICENSE
+https://github.com/cloud-sdk-builds/client-global-accelerator/blob/refs/tags/3.931.0/LICENSE
 ```
 
 ---
